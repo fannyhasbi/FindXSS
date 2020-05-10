@@ -39,7 +39,7 @@ def findxss():
 	def again():
 		inp = raw_input("Find Again? [E]xit [A]gain (e/a)").lower()
 		if inp == 'a':
-			brutexss()
+			findxss()
 		elif inp == 'e':
 			exit()
 		else:
