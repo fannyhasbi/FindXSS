@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 #!Cross Site Scripting Finder
 #!Author: Novan Aziz Ramadhan
 #!Copyrighted by : ©Shawar Khan
