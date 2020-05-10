@@ -37,7 +37,7 @@ def findxss():
 		os.system('clear')
 	print banner
 	def again():
-		inp = raw_input("Find Again? [E]xit [A]gain").lower()
+		inp = raw_input("Find Again? [E]xit [A]gain (e/a)").lower()
 		if inp == 'a':
 			brutexss()
 		elif inp == 'e':
