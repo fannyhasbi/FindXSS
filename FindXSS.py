@@ -17,8 +17,6 @@ import mechanize
 import httplib
 init()
 banner = """
-
-
 ______ _           ___   __ _____ _____ 
 |  ___(_)         | \ \ / //  ___/  ___|
 | |_   _ _ __   __| |\ V / \ `--.\ `--. 
