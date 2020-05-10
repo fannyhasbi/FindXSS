@@ -221,7 +221,7 @@ def findxss():
 					urldata = urlparse.parse_qsl(finalurl.query)
 					domain0 = '{uri.scheme}://{uri.netloc}/'.format(uri=finalurl)
 					domain = domain0.replace("https://","").replace("http://","").replace("www.","").replace("/","")
-					print (Style.DIM+Fore.+CYAN"[+] Checking if "+domain+" is available..."+Style.RESET_ALL)
+					print (Style.DIM+Fore.+WHITE"[+] Checking if "+domain+" is available..."+Style.RESET_ALL)
 					connection = httplib.HTTPConnection(domain)
 					connection.connect()
 					print("[+] "+Fore.GREEN+domain+" is available! Good!"+Style.RESET_ALL)
