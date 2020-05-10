@@ -30,14 +30,14 @@ How to install :
 
 ###Usage(GET Method):
 
-COMMAND:  python findxss.py
+COMMAND:  python2 FindXSS.py
 METHOD:   g
 URL:      http://www.site.com/?parameter=value
 WORDLIST: list.txt
 
 ###Usage(POST method):
 
-COMMAND:   python findxss.py
+COMMAND:   python2 FindXSS.py
 METHOD:    p
 URL:       http://www.site.com/file.php
 POST DATA: parameter=value&parameter1=value1
