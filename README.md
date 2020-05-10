@@ -19,13 +19,14 @@ Instagram : https://instagram.com/novan.rmd
     Mechanize: https://pypi.python.org/pypi/mechanize/
 
 
-How to use :
+How to install :
 
-apt-get install python2
-cd FindXSS
-pip2 install colorama
-chmod +x FindXSS.py
-python2 FindXSS.py
+1. apt-get install git
+2. apt-get install pip2
+3. apt-get install python2
+4. git clone https://github.com/novanaziz/FindXSS
+5. cd FindXSS
+6. python2 FindXSS.py
 
 ###Usage(GET Method):
 
