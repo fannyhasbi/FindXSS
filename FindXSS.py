@@ -179,8 +179,8 @@ def findxss():
 								page = urllib.urlopen(data)
 								sourcecode = page.read()
 								if x in sourcecode:
-									print(Style.BRIGHT+Fore.RED+"\n[!]"+" XSS Vulnerability Found! \n"+Fore.RED+Style.BRIGHT+"[!]"+" Parameter:\t%s\n"+Fore.RED+Style.BRIGHT+"[!]"+" Payload:\t%s"+Style.RESET_ALL)%(pn,x)
-									fresult.append("  Vulnerable  ")
+									print(Style.BRIGHT+Fore.GREEN+"\n[!]"+" XSS Vulnerability Found! \n"+Fore.RED+Style.BRIGHT+"[!]"+" Parameter:\t%s\n"+Fore.RED+Style.BRIGHT+"[!]"+" Payload:\t%s"+Style.RESET_ALL)%(pn,x)
+									fresult.append("  Vulnerable to XSS ")
 									c = 1
 									total = total+1
 									progress = progress + 1
@@ -188,14 +188,14 @@ def findxss():
 								else:
 									c = 0
 						if c == 0:
-							print(Style.BRIGHT+Fore.GREEN+"\n[+]"+Style.RESET_ALL+Style.DIM+Fore.WHITE+" '%s' parameter not vulnerable."+Style.RESET_ALL)%pn
-							fresult.append("Not Vulnerable")
+							print(Style.BRIGHT+Fore.RED+"\n[+]"+Style.RESET_ALL+Style.DIM+Fore.WHITE+" '%s' parameter not vulnerable."+Style.RESET_ALL)%pn
+							fresult.append("Sorry Not Vulnerable")
 							progress = progress + 1
 							pass
 						progress = 0
 					complete(fpar,fresult,total,domain)
 				except(httplib.HTTPResponse, socket.error) as Exit:
-					print(Style.BRIGHT+Fore.RED+"[!] Site "+domain+" is offline!"+Style.RESET_ALL)
+					print(Style.BRIGHT+Fore.BLUE+"[!] Site "+domain+" is refused connection!"+Style.RESET_ALL)
 					again()
 			except(KeyboardInterrupt) as Exit:
 				print("\nExit...")
@@ -308,7 +308,7 @@ def findxss():
 		except (mechanize.HTTPError,mechanize.URLError) as e:
 			print(Style.BRIGHT+Fore.RED+"\n[!] HTTP ERROR! %s %s"+Style.RESET_ALL)%(e.code,e.reason)
 	try:
-		methodselect = raw_input("[?] Select method: [G]ET or [P]OST (G/P): ").lower()
+		methodselect = raw_input("[?] Select method: GET or POST (G/P): ").lower()
 		if methodselect == 'g':
 			GET()
 		elif methodselect == 'p':
