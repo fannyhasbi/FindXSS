@@ -8,7 +8,7 @@ Instagram : https://instagram.com/novan.rmd
 
     Python 2.7
 
-    Wordlist included(wordlist.txt)
+    Wordlist included(list.txt)
 
     Modules required: Colorama, Mechanize
 
