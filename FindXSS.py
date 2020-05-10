@@ -144,7 +144,7 @@ def findxss():
 					paravalue = []
 					wordlist = raw_input("[?] Enter location of Wordlist (Press Enter to use default wordlist.txt)\n[?] > ")
 					if len(wordlist) == 0:
-						wordlist = 'wordlist.txt'
+						wordlist = 'list.txt'
 						print(grey+"[+] Using Default wordlist..."+Style.RESET_ALL)
 					else:
 						pass
@@ -228,7 +228,7 @@ def findxss():
 					path = urlparse.urlparse(site).scheme+"://"+urlparse.urlparse(site).netloc+urlparse.urlparse(site).path
 					url = site
 					param = str(raw_input("[?] Enter post data: > "))
-					wordlist = raw_input("[?] Enter location of Wordlist (Press Enter to use default wordlist.txt)\n[?] > ")
+					wordlist = raw_input("[?] Enter location of Wordlist (Press Enter to use default list.txt)\n[?] > ")
 					if len(wordlist) == 0:
 						wordlist = 'list.txt'
 						print("[+] Using Default wordlist...")
