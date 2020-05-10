@@ -24,9 +24,9 @@ ______ _           ___   __ _____ _____
 | |_   _ _ __   __| |\ V / \ `--.\ `--. 
 |  _| | | '_ \ / _` |/   \  `--. \`--. \
 | |   | | | | | (_| / /^\ \/\__/ /\__/ /
-\_|   |_|_| |_|\__,_\/   \/\____/\____/ 
-                                        
-                                        
+\_|   |_|_| |_|\__,_\/   \/\____/\____/
+
+
 FindXSS - Cross Site Scripting Finder
 Author : Novan Aziz Ramadhan - Mr.Colded
 Note : Use the correct paylods from the wordlist for the best result
