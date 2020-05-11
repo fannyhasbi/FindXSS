@@ -30,7 +30,7 @@ banner = """
 
 FindXSS - Cross Site Scripting Finder
 Author : Novan Aziz Ramadhan - Mr.Colded
-Note : Use the correct payloads from the wordlist for the best result
+Note : Create your own wordlist payloads for the best result
 
 """
 def findxss():
