@@ -142,7 +142,7 @@ def findxss():
 					url = site
 					paraname = []
 					paravalue = []
-					wordlist = raw_input("[?] Enter location of Wordlist (Press Enter to use default wordlist.txt)\n[?] > ")
+					wordlist = raw_input("[?] Enter location of Wordlist (Press Enter to use default list.txt)\n[?] > ")
 					if len(wordlist) == 0:
 						wordlist = 'list.txt'
 						print(grey+"[+] Using Default wordlist..."+Style.RESET_ALL)
