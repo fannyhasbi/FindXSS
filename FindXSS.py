@@ -138,7 +138,7 @@ def findxss():
                                         print (Style.DIM+Fore.WHITE+"[+] Checking if "+domain+" is available..."+Style.RESET_ALL)					
                                         connection = httplib.HTTPConnection(domain)					
                                         connection.connect()
-					print("[+] "+Fore.CYAN+domain+" is available! Good!"+Style.RESET_ALL)
+					print("[+] "+Fore.WHITE+domain+" is available! Good!"+Style.RESET_ALL)
 					url = site
 					paraname = []
 					paravalue = []
