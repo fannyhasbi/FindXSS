@@ -4,7 +4,13 @@ FindXSS is a brute forcer for a Cross-Site Scripting
 Facebook : https://fb.me/novan.rmd1
 Instagram : https://instagram.com/novan.rmd
 
-### Requirements:
+* [Requirement](#requirements)
+* [Modules Required](#modules-required)
+* [How to install](#how-to-install)
+* [Usage (GET)](#usage-get-method)
+* [Usage (POST)](#usage-post-method)
+
+### Requirements
 
     Python 2.7
 
@@ -12,14 +18,14 @@ Instagram : https://instagram.com/novan.rmd
 
     Modules required: Colorama, Mechanize
 
-### Modules Required:
+### Modules Required
 
     Colorama: https://pypi.python.org/pypi/colorama/
 
     Mechanize: https://pypi.python.org/pypi/mechanize/
 
 
-### How to install :
+### How to install
 
 1. apt-get install git
 2. apt-get install pip2
@@ -28,14 +34,14 @@ Instagram : https://instagram.com/novan.rmd
 5. cd FindXSS
 6. python2 FindXSS.py
 
-### Usage(GET Method):
+### Usage (GET Method)
 
 COMMAND:  python2 FindXSS.py
 METHOD:   g
 URL:      http://www.site.com/?parameter=value
 WORDLIST: list.txt
 
-### Usage(POST method):
+### Usage (POST method)
 
 COMMAND:   python2 FindXSS.py
 METHOD:    p
